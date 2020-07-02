@@ -26,7 +26,7 @@ FactEditor scans the text in the buffer, copies the parts of text from the buffe
 
 # References
 ```tex
-@InProceedings{iso2019fact,
+@InProceedings{iso2020fact,
     author = {Iso, Hayate and
               Qiao, Chao and
               Li, Hang},

@@ -1,5 +1,6 @@
 # Fact-based Text Editing
 [![Conference](https://img.shields.io/badge/acl-2020-red)](https://www.aclweb.org/anthology/2020.acl-main.17/)
+[![arXiv](https://img.shields.io/badge/arxiv-2007.00916-success)](https://arxiv.org/abs/2007.00916/)
 [![Poster](https://img.shields.io/badge/slide-pdf-informational)](https://isomap.github.io/slides/iso2020acl.pdf)
 
 <p align="center"><img width="60%" src="img/task.png"/></p>

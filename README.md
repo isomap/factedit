@@ -6,8 +6,7 @@
 <p align="center"><img width="60%" src="img/task.png"/></p>
 
 
-Datasets for [Fact-based Text Editing (Iso et al; ACL 2020)](https://www.aclweb.org/anthology/2020.acl-main.17/).
-Code will be uploaded soon.
+Code and Datasets for [Fact-based Text Editing (Iso et al; ACL 2020)](https://www.aclweb.org/anthology/2020.acl-main.17/).
 
 ## Dataset
 <p align="center"><img width="60%" src="img/insertion.png"/><img width="60%" src="img/deletion.png"/></p>
@@ -49,7 +48,7 @@ allennlp train $CONFIG \
 For example, the following is the sample script for training the model with WebEdit dataset:
 ```python
 allennlp train config/webedit.jsonnet \
-            -s model/webedit \
+            -s models/webedit \
             --include-package editor 
 ```
 
@@ -68,7 +67,7 @@ python predict.py $INPUT_FILE \
 ```
 To run on a GPU, run with `--cuda_device 0` (or any other CUDA devices).
 
-To run the pretrained model of WebEdit dataset on development dataset:
+To run the model with a pretrained checkpoint the development set of WebEdit data:
 ```python
 python predict.py ./data/webedit/dev.jsonl \
                   ./models/webedit.tar.gz \

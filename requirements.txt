@@ -1,0 +1,5 @@
+nltk==3.4.5
+allennlp==0.9.0
+numpy
+click
+tqdm
